@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Zero to One by Cornelius Aurelius | The No-Excuses Playbook for Men Starting From Zero</title>
+
+  <meta name="description" content="Zero to One by Cornelius Aurelius is a direct, practical ebook for men who feel broke, stuck, behind, or ready to rebuild. Read the full ebook online with clean mobile and desktop formatting, shareable lines, private notes, and tools for turning pain into action." />
+  <meta name="keywords" content="Cornelius Aurelius, Zero to One, Cornelius Aurelius ebook, men self improvement book, broke stuck ready to change, no excuses playbook, personal development for men, self discipline, money mindset, rebuild your life, Cornelius Aurelius books" />
+  <meta name="author" content="Cornelius Aurelius" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#020617" />
+
+  <link rel="canonical" href="https://cornelius-aurelius.github.io/ZERO-TO-ONE/" />
+
+  <meta property="og:type" content="book" />
+  <meta property="og:title" content="Zero to One by Cornelius Aurelius" />
+  <meta property="og:description" content="A no-excuses playbook for men who are broke, stuck, and ready to change everything. Read the full Cornelius Aurelius ebook online." />
+  <meta property="og:site_name" content="Cornelius Aurelius Ebooks" />
+  <meta property="og:url" content="https://cornelius-aurelius.github.io/ZERO-TO-ONE/" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Zero to One by Cornelius Aurelius" />
+  <meta name="twitter:description" content="A no-excuses playbook for men who are broke, stuck, and ready to change everything." />
+
+  <style>
+    :root {
+      --bg: #020617;
+      --bg2: #06111f;
+      --panel: rgba(15, 23, 42, 0.78);
+      --panel2: rgba(2, 132, 199, 0.10);
+      --text: #e5f6ff;
+      --muted: #9fb7c6;
+      --strong: #ffffff;
+      --line: rgba(125, 211, 252, 0.22);
+      --blue: #00d5ff;
+      --blue2: #38bdf8;
+      --blue3: #0ea5e9;
+      --shadow: 0 22px 70px rgba(0, 213, 255, 0.12);
+      --danger: #fb7185;
+      --success: #34d399;
+      --radius: 24px;
+      --fontSize: 18px;
+      --readWidth: 820px;
+    }
+
+    [data-theme="light"] {
+      --bg: #eef8ff;
+      --bg2: #ffffff;
+      --panel: rgba(255, 255, 255, 0.92);
+      --panel2: rgba(2, 132, 199, 0.08);
+      --text: #0f172a;
+      --muted: #475569;
+      --strong: #020617;
+      --line: rgba(2, 132, 199, 0.22);
+      --shadow: 0 18px 60px rgba(2, 132, 199, 0.14);
+    }
+
+    [data-theme="focus"] {
+      --bg: #000000;
+      --bg2: #050505;
+      --panel: rgba(0, 0, 0, 0.94);
+      --panel2: rgba(0, 213, 255, 0.08);
+      --text: #f8fbff;
+      --muted: #c8d4dd;
+      --strong: #ffffff;
+      --line: rgba(0, 213, 255, 0.35);
+      --shadow: 0 18px 70px rgba(0, 213, 255, 0.18);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-size: var(--fontSize);
+      line-height: 1.75;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(0, 213, 255, 0.18), transparent 34rem),
+        radial-gradient(circle at top right, rgba(14, 165, 233, 0.14), transparent 30rem),
+        linear-gradient(135deg, var(--bg), var(--bg2));
+      min-height: 100vh;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      margin: 0 0 1.2rem;
+    }
+
+    h1, h2, h3 {
+      color: var(--strong);
+      line-height: 1.12;
+      letter-spacing: -0.04em;
+      margin: 0 0 1rem;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 8vw, 6.4rem);
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 5vw, 4rem);
+      margin-top: 1.4rem;
+    }
+
+    h3 {
+      font-size: clamp(1.35rem, 3vw, 2rem);
+      margin-top: 2rem;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 1rem;
+      padding: 0.8rem 1rem;
+      background: var(--blue);
+      color: #00111a;
+      border-radius: 999px;
+      font-weight: 900;
+      z-index: 1000;
+    }
+
+    .skip-link:focus {
+      left: 1rem;
+    }
+
+    .progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 4px;
+      width: 0%;
+      background: linear-gradient(90deg, var(--blue), #fff);
+      z-index: 1000;
+      box-shadow: 0 0 22px rgba(0, 213, 255, 0.8);
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      backdrop-filter: blur(18px);
+      background: rgba(2, 6, 23, 0.74);
+      border-bottom: 1px solid var(--line);
+    }
+
+    [data-theme="light"] .site-header {
+      background: rgba(255, 255, 255, 0.78);
+    }
+
+    .nav {
+      width: min(1200px, calc(100% - 28px));
+      margin: 0 auto;
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+      font-weight: 950;
+      color: var(--strong);
+      letter-spacing: -0.03em;
+    }
+
+    .brand small {
+      color: var(--blue);
+      font-size: 0.72rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      margin-top: 0.22rem;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .btn {
+      appearance: none;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text);
+      padding: 0.78rem 1rem;
+      border-radius: 999px;
+      font: inherit;
+      font-size: 0.92rem;
+      line-height: 1;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.45rem;
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+      min-height: 44px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      border-color: rgba(0, 213, 255, 0.7);
+      background: rgba(0, 213, 255, 0.1);
+      text-decoration: none;
+    }
+
+    .btn.primary {
+      background: linear-gradient(135deg, var(--blue), var(--blue3));
+      color: #00131d;
+      border-color: transparent;
+      box-shadow: 0 12px 35px rgba(0, 213, 255, 0.2);
+    }
+
+    .btn.primary:hover {
+      background: linear-gradient(135deg, #7dd3fc, var(--blue));
+    }
+
+    .btn.slim {
+      padding: 0.62rem 0.82rem;
+      font-size: 0.82rem;
+      min-height: 38px;
+    }
+
+    .hero {
+      width: min(1200px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: clamp(3rem, 7vw, 6rem) 0 2rem;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+      gap: clamp(1.5rem, 5vw, 4rem);
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--blue);
+      font-weight: 950;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1.25rem, 3vw, 2.1rem);
+      line-height: 1.25;
+      color: var(--strong);
+      max-width: 920px;
+      font-weight: 850;
+rem, 3vw, 2.1rem);
+      line-height: 1.25;
+      color: var(--strong);
+      letter-spacing: -0.03em;
+    }
+
+    .hero-copy {
+      color: var(--muted);
+      max-width: 760px;
+      font-size: 1.05em;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+
+    .book-card {
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(145deg, rgba(0, 213, 255, 0.13), rgba(2, 6, 23, 0.14)),
+        var(--panel);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: clamp(1.2rem, 3vw, 2rem);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .book-card::before {
+      content: "";
+      position: absolute;
+      inset: -2px;
+      background: linear-gradient(135deg, transparent, rgba(0, 213, 255, 0.18), transparent);
+      pointer-events: none;
+    }
+
+    .cover {
+      min-height: 420px;
+      border: 1px solid rgba(125, 211, 252, 0.28);
+      border-radius: 22px;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background:
+        radial-gradient(circle at 50% 0%, rgba(0, 213, 255, 0.24), transparent 17rem),
+        linear-gradient(160deg, #020617, #061827 55%, #000);
+      box-shadow: inset 0 0 60px rgba(0, 213, 255, 0.08);
+    }
+
+    .cover .cover-title {
+      font-size: clamp(2.8rem, 6vw, 5.5rem);
+      line-height: 0.92;
+      font-weight: 1000;
+      color: white;
+      letter-spacing: -0.08em;
+      text-transform: uppercase;
+    }
+
+    .cover .cover-subtitle {
+      color: #cffafe;
+      font-size: 1.05rem;
+      font-weight: 750;
+      margin-top: 1rem;
+    }
+
+    .cover .cover-author {
+      color: var(--blue);
+      font-weight: 950;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-size: 0.82rem;
+    }
+
+    .utility-grid {
+      width: min(1200px, calc(100% - 28px));
+      margin: 0 auto 2rem;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 1rem;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(1rem, 2.5vw, 1.5rem);
+    }
+
+    .panel-title {
+      font-size: 1rem;
+      color: var(--strong);
+      font-weight: 950;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.85rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+
+    .share-row,
+    .settings-row,
+    .caption-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+
+    .settings-row {
+      align-items: center;
+    }
+
+    .setting-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      align-items: center;
+      padding: 0.5rem;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .setting-label {
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 800;
+      padding: 0 0.35rem;
+    }
+
+    .layout {
+      width: min(1200px, calc(100% - 28px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(240px, 300px) minmax(0, 1fr);
+      gap: 1rem;
+      align-items: start;
+      padding-bottom: 4rem;
+    }
+
+    .toc {
+      position: sticky;
+      top: 92px;
+      max-height: calc(100vh - 110px);
+      overflow: auto;
+    }
+
+    .toc ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 0.45rem;
+    }
+
+    .toc a {
+      display: block;
+      padding: 0.72rem 0.85rem;
+      border-radius: 16px;
+      color: var(--text);
+      border: 1px solid transparent;
+      font-size: 0.92rem;
+      line-height: 1.25;
+    }
+
+    .toc a:hover,
+    .toc a.active {
+      background: rgba(0, 213, 255, 0.1);
+      border-color: var(--line);
+      text-decoration: none;
+      color: var(--strong);
+    }
+
+    .reader {
+      width: min(100%, var(--readWidth));
+      justify-self: center;
+    }
+
+    .chapter {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(1.15rem, 4vw, 3rem);
+      margin-bottom: 1rem;
+      scroll-margin-top: 96px;
+    }
+
+    .chapter-kicker {
+      color: var(--blue);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-weight: 950;
+      margin-bottom: 0.6rem;
+    }
+
+    .quote {
+      margin: 1.6rem 0;
+      padding: 1.2rem 1.25rem;
+      border-left: 4px solid var(--blue);
+      background: var(--panel2);
+      border-radius: 0 18px 18px 0;
+      color: var(--strong);
+      font-size: 1.12em;
+      line-height: 1.55;
+      font-weight: 850;
+      letter-spacing: -0.02em;
+    }
+
+    .chapter-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+    }
+
+    .caption-card {
+      flex: 1 1 260px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.035);
+    }
+
+    .caption-card p {
+      margin-bottom: 0.9rem;
+      color: var(--strong);
+      font-weight: 780;
+      line-height: 1.45;
+    }
+
+    .notes-panel {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      width: min(430px, calc(100vw - 32px));
+      max-height: min(680px, calc(100vh - 32px));
+      display: none;
+      flex-direction: column;
+      z-index: 1001;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      backdrop-filter: blur(20px);
+      border-radius: 24px;
+      box-shadow: 0 25px 80px rgba(0, 0, 0, 0.35);
+      overflow: hidden;
+    }
+
+    .notes-panel.open {
+      display: flex;
+    }
+
+    .notes-head {
+      padding: 1rem;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .notes-head strong {
+      color: var(--strong);
+      line-height: 1.2;
+    }
+
+    .notes-body {
+      padding: 1rem;
+      display: grid;
+      gap: 0.8rem;
+      overflow: auto;
+    }
+
+    textarea,
+    input {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text);
+      padding: 0.9rem 1rem;
+      font: inherit;
+      outline: none;
+    }
+
+    textarea {
+      min-height: 220px;
+      resize: vertical;
+      line-height: 1.55;
+    }
+
+    textarea:focus,
+    input:focus {
+      border-color: rgba(0, 213, 255, 0.8);
+      box-shadow: 0 0 0 4px rgba(0, 213, 255, 0.12);
+    }
+
+    .status {
+      min-height: 1.4rem;
+      font-size: 0.86rem;
+      color: var(--muted);
+      font-weight: 750;
+    }
+
+    .floating-notes {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      z-index: 1000;
+      box-shadow: 0 15px 50px rgba(0, 213, 255, 0.2);
+    }
+
+    .footer {
+      border-top: 1px solid var(--line);
+      background: rgba(0, 0, 0, 0.18);
+      padding: 2rem 0;
+      margin-top: 2rem;
+    }
+
+    .footer-inner {
+      width: min(1200px, calc(100% - 28px));
+      margin: 0 auto;
+      display: grid;
+      gap: 1rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .mini {
+      font-size: 0.86rem;
+      color: var(--muted);
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--line);
+      margin: 2rem 0;
+    }
+
+    .desktop-only {
+      display: inline-flex;
+    }
+
+    @media (max-width: 980px) {
+      .hero,
+      .utility-grid,
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .toc {
+        position: relative;
+        top: auto;
+        max-height: none;
+      }
+
+      .toc ol {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .reader {
+        width: 100%;
+      }
+
+      .nav {
+        align-items: flex-start;
+        padding: 0.75rem 0;
+        min-height: auto;
+      }
+
+      .nav-links {
+        gap: 0.4rem;
+      }
+
+      .desktop-only {
+        display: none;
+      }
+    }
+
+    @media (max-width: 620px) {
+      body {
+        line-height: 1.68;
+      }
+
+      .nav {
+        flex-direction: column;
+      }
+
+      .nav-links,
+      .hero-actions,
+      .share-row,
+      .settings-row,
+      .chapter-actions {
+        width: 100%;
+      }
+
+      .btn {
+        flex: 1 1 auto;
+      }
+
+      .toc ol {
+        grid-template-columns: 1fr;
+      }
+
+      .cover {
+        min-height: 340px;
+        padding: 1.3rem;
+      }
+
+      .chapter {
+        padding: 1.05rem;
+        border-radius: 20px;
+      }
+
+      .quote {
+        padding: 1rem;
+      }
+
+      .floating-notes {
+        right: 12px;
+        bottom: 12px;
+      }
+    }
+
+    @media print {
+      .site-header,
+      .utility-grid,
+      .toc,
+      .floating-notes,
+      .notes-panel,
+      .chapter-actions,
+      .footer,
+      .progress {
+        display: none !important;
+      }
+
+      body {
+        background: #fff;
+        color: #000;
+      }
+
+      .hero,
+      .layout,
+      .reader {
+        width: 100%;
+        display: block;
+      }
+
+      .chapter {
+        box-shadow: none;
+        border: none;
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+
+<body data-theme="dark">
+  <a class="skip-link" href="#read">Skip to book</a>
+  <div class="progress" id="progressBar"></div>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Zero to One home">
+        Zero to One
+        <small>Cornelius Aurelius</small>
+      </a>
+
+      <div class="nav-links">
+        <a class="btn slim" href="https://cornelius-aurelius.github.io/CORNELIUS-AURELIUS-EBOOKS/">Ebook Hub</a>
+        <a class="btn slim" href="https://corneliusaurelius.com/">Website</a>
+        <a class="btn slim primary" href="https://buy.stripe.com/28E00jbRIfz8aLI7TGco000">Tip Cornelius</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="book-title">
+      <div>
+        <div class="eyebrow">A Book for the Man in the Arena</div>
+        <h1 id="book-title">Zero to One</h1>
+        <p class="hero-subtitle">The No-Excuses Playbook for Men Who Are Broke, Stuck, and Ready to Change Everything</p>
+        <p class="hero-copy">
+          A direct, practical online ebook for the man who knows his life cannot stay the same.
+          Inspired in spirit by the financial awakening many readers associate with <em>Rich Dad Poor Dad</em> by Robert Kiyosaki, this book turns the focus toward identity, discipline, money, work, relationships, and the first real actions that move a man from zero into motion.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#read">Start Reading</a>
+          <button class="btn" type="button" onclick="sharePage()">Share This Ebook</button>
+          <button class="btn" type="button" onclick="toggleNotes(true)">Open Private Notes</button>
+        </div>
+
+        <p class="mini">
+          Read online. Adjust the layout. Write private notes. Email your thoughts to yourself.
+        </p>
+      </div>
+
+      <aside class="book-card" aria-label="Book cover">
+        <div class="cover">
+          <div>
+            <div class="cover-author">Cornelius Aurelius</div>
+            <div class="cover-title">Zero<br />to One</div>
+            <p class="cover-subtitle">The No-Excuses Playbook for Men Who Are Broke, Stuck, and Ready to Change Everything</p>
+          </div>
+          <p class="cover-subtitle">“The most dangerous place you can live is inside a life that was never really yours.”</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="utility-grid" aria-label="Reading tools">
+      <div class="panel">
+        <div class="panel-title">Share this page</div>
+        <div class="share-row">
+          <button class="btn slim primary" type="button" onclick="sharePage()">Share</button>
+          <button class="btn slim" type="button" onclick="copyPageLink()">Copy Link</button>
+          <button class="btn slim" type="button" onclick="openShare('x')">X</button>
+          <button class="btn slim" type="button" onclick="openShare('facebook')">Facebook</button>
+          <button class="btn slim" type="button" onclick="openShare('linkedin')">LinkedIn</button>
+          <button class="btn slim" type="button" onclick="openShare('whatsapp')">WhatsApp</button>
+        </div>
+        <div class="status" id="shareStatus" aria-live="polite"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">Reading settings</div>
+        <div class="settings-row">
+          <div class="setting-group" aria-label="Theme settings">
+            <span class="setting-label">Colour</span>
+            <button class="btn slim" type="button" onclick="setTheme('dark')">Neon</button>
+            <button class="btn slim" type="button" onclick="setTheme('focus')">Focus</button>
+            <button class="btn slim" type="button" onclick="setTheme('light')">Light</button>
+          </div>
+
+          <div class="setting-group" aria-label="Font size settings">
+            <span class="setting-label">Text</span>
+            <button class="btn slim" type="button" onclick="changeFont(-1)">A−</button>
+            <button class="btn slim" type="button" onclick="changeFont(1)">A+</button>
+          </div>
+
+          <div class="setting-group" aria-label="Page width settings">
+            <span class="setting-label">Width</span>
+            <button class="btn slim" type="button" onclick="setWidth('narrow')">Narrow</button>
+            <button class="btn slim" type="button" onclick="setWidth('wide')">Wide</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="utility-grid" aria-label="Lines to share">
+      <div class="panel">
+        <div class="panel-title">Lines worth sharing</div>
+        <div class="caption-grid">
+          <div class="caption-card">
+            <p>“Pain without direction is destruction. Pain with a plan is fuel.”</p>
+            <button class="btn slim" type="button" onclick="copyText(this, 'Pain without direction is destruction. Pain with a plan is fuel. — Zero to One by Cornelius Aurelius')">Copy line</button>
+          </div>
+
+          <div class="caption-card">
+            <p>“You do not get confident and then take action. You take action and become confident.”</p>
+            <button class="btn slim" type="button" onclick="copyText(this, 'You do not get confident and then take action. You take action and become confident. — Zero to One by Cornelius Aurelius')">Copy line</button>
+          </div>
+
+          <div class="caption-card">
+            <p>“The man you are becoming starts with the man you are being right now.”</p>
+            <button class="btn slim" type="button" onclick="copyText(this, 'The man you are becoming starts with the man you are being right now. — Zero to One by Cornelius Aurelius')">Copy line</button>
+          </div>
+        </div>
+        <div class="status" id="copyStatus" aria-live="polite"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">Send yourself a thought</div>
+        <p class="mini">Use the private notes button while reading, then email the notes to yourself when ready.</p>
+        <button class="btn primary" type="button" onclick="toggleNotes(true)">Open Private Notes</button>
+      </div>
+    </section>
+
+    <section class="layout" id="read" aria-label="Book reader">
+      <aside class="panel toc" aria-label="Table of contents">
+        <div class="panel-title">Contents</div>
+        <ol>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#chapter-1">1. Own the Room You’re In</a></li>
+          <li><a href="#chapter-2">2. The Myth of the Giant Leap</a></li>
+          <li><a href="#chapter-3">3. Identity Before Income</a></li>
+          <li><a href="#chapter-4">4. The Invisible Job Market</a></li>
+          <li><a href="#chapter-5">5. Money Is a Language</a></li>
+          <li><a href="#chapter-6">6. Women and Relationships</a></li>
+          <li><a href="#chapter-7">7. Discipline Is Self-Respect</a></li>
+          <li><a href="#chapter-8">8. Your Network Is Your Net Worth</a></li>
+          <li><a href="#chapter-9">9. Momentum</a></li>
+          <li><a href="#chapter-10">10. The Man You’ll Be</a></li>
+          <li><a href="#final-note">Final Note</a></li>
+        </ol>
+      </aside>
+
+      <article class="reader">
+        <section class="chapter" aria-label="Dedication">
+          <div class="chapter-kicker">Dedication</div>
+          <p class="quote">“The most dangerous place you can live is inside a life that was never really yours.”</p>
+          <p>For every man who has stared at his bedroom ceiling at 2 a.m. and thought: <em>This can’t be it.</em></p>
+          <p>You were right. It isn’t.</p>
+        </section>
+
+        <section class="chapter" id="introduction">
+          <div class="chapter-kicker">Introduction</div>
+          <h2>The Worst Day of Your Life Could Be the Best</h2>
+
+          <p>Let me paint the picture you already know.</p>
+
+          <p>You wake up — maybe at noon, maybe at two in the afternoon. The ceiling is the same one it was when you were fourteen. The room smells like stale ambition. Your phone has notifications from people living the lives you scroll past. Your mom is probably downstairs. You have seventeen dollars in your account and a résumé you haven’t updated since you tried — and failed — to make something work.</p>
+
+          <p>And the worst part? It’s not the broke part. It’s not the single part. It’s the quiet part nobody talks about: the gnawing sense that time is passing and you are standing completely still while the world moves on without you.</p>
+
+          <p class="quote">“That feeling is not your enemy. That feeling is the only honest thing in your life right now.”</p>
+
+          <p>Because pain without direction is destruction. But pain with a plan? That’s fuel.</p>
+
+          <p>This book was not written for the guy who has it figured out. It was written for the man sitting in the middle of a mess of his own making — or a mess life handed him — who knows, deep down, that he is capable of more.</p>
+
+          <p>Who has seen a version of himself in the future that actually means something. Who is exhausted not by work, but by the weight of unused potential.</p>
+
+          <p>That man is not a failure. That man is a pre-game story.</p>
+
+          <h3>What This Book Is</h3>
+
+          <p>This is not a motivational poster in book form. There will be no “You got this!” platitudes, no toxic positivity, no pretending that hard things aren’t hard.</p>
+
+          <p>What this book is — is ruthlessly honest, deeply practical, and designed specifically for men who are starting from zero. Not just financially zero. Socially zero. Professionally zero. Sometimes emotionally zero.</p>
+
+          <p>Every chapter is structured around a real obstacle that men in your position face — and then dismantles it, reframes it, and gives you something you can do today. Not next year. Today.</p>
+
+          <h3>What This Book Asks of You</h3>
+
+          <p>Only one thing: that you do not lie to yourself while reading it.</p>
+
+          <p>That’s it. No equipment required. No money required. Just the willingness to look at your situation with clear eyes and say — okay. Now what?</p>
+
+          <p>Let’s find out.</p>
+
+          <div class="chapter-actions">
+            <button class="btn slim" type="button" onclick="copyText(this, 'Pain without direction is destruction. Pain with a plan is fuel. — Zero to One by Cornelius Aurelius')">Copy this line</button>
+            <button class="btn slim" type="button" onclick="toggleNotes(true)">Write a note</button>
+            <a class="btn slim primary" href="#chapter-1">Next chapter</a>
+          </div>
+        </section>
+
+        <section class="chapter" id="chapter-1">
+          <div class="chapter-kicker">Chapter 1</div>
+          <h2>Own the Room You’re In — Even If It’s Your Childhood Bedroom</h2>
+
+          <p>Here is the first brutal truth:</p>
+
+          <p class="quote">“Where you live right now does not determine who you are. How you act right now does.”</p>
+
+          <p>Marcus was twenty-six. Back in his parents’ house after a failed attempt at college, a failed attempt at a startup, and a relationship that ended in a way he still didn’t fully understand. He was embarrassed every time he answered the question “So what are you up to?” at family dinners. He started avoiding people.</p>
+
+          <p>The avoiding is where the real damage happens. Not the failure. The retreat.</p>
+
+          <p>Because the moment you start hiding — hiding where you live, hiding what you’re doing, hiding from your own reflection — you start to shrink. And a man who is shrinking cannot build anything.</p>
+
+          <h3>Reframe the Bedroom</h3>
+
+          <p>History’s most successful men have almost all had an origin story that looked embarrassing from the outside. Jeff Bezos ran Amazon from a garage. J.K. Rowling wrote Harry Potter in cafés because she couldn’t afford to heat her flat. Jay-Z sold CDs out of his car. The location was never the story. The obsession inside it was.</p>
+
+          <p>Your bedroom is not a symbol of your failure. It is your current base of operations. Treat it like one.</p>
+
+          <p>This week: clean it. Seriously. Completely.</p>
+
+          <p>This sounds stupidly small. It is not. The state of your environment is a reflection of — and an input into — the state of your mind. A clean, intentional space sends your brain a signal: this person is taking himself seriously. A cluttered, dark, chaos-filled room sends the opposite.</p>
+
+          <p>You cannot control much right now. You can control your four walls. Start there.</p>
+
+          <h3>The Shame Game — and How to Stop Playing It</h3>
+
+          <p>Shame is the most useless emotion a man can carry during a rebuilding phase. It doesn’t fix anything. It doesn’t teach you anything you don’t already know. It just eats your energy.</p>
+
+          <p>Here’s how to deal with the “living with parents” question when people ask:</p>
+
+          <p>Don’t lie. Don’t perform. Don’t apologize. Say exactly this: “I’m in a building phase right now. I moved back strategically to cut costs while I build something.”</p>
+
+          <p>Whether or not you’ve started building is irrelevant in that moment. The energy you say it with is what people respond to. Confidence about your current situation isn’t delusion — it’s narrative control. You’re deciding what your story means before someone else decides for you.</p>
+
+          <h3>Action Step: The Morning Protocol</h3>
+
+          <p>Starting tomorrow, before you touch your phone, before you open YouTube or Instagram or anything that pulls your attention outward — do these three things:</p>
+
+          <p><strong>1.</strong> Make your bed. Signal to your brain that you are in control of your environment.</p>
+          <p><strong>2.</strong> Write down one thing you will accomplish today. Not a list of ten. One real thing.</p>
+          <p><strong>3.</strong> Say this out loud, alone: “I am building.”</p>
+
+          <p>That’s it. Two minutes. It sounds absurd until you’ve done it for thirty days and watched your own behaviour shift.</p>
+
+          <p class="quote">“The man you’re becoming starts with the man you’re being right now, today, in the room no one else sees.”</p>
+
+          <div class="chapter-actions">
+            <a class="btn slim" href="#introduction">Previous</a>
+            <button class="btn slim" type="button" onclick="copyText(this, 'Where you live right now does not determine who you are. How you act right now does. — Zero to One by Cornelius Aurelius')">Copy this line</button>
+            <button class="btn slim" type="button" onclick="toggleNotes(true)">Write a note</button>
+            <a class="btn slim primary" href="#chapter-2">Next chapter</a>
+          </div>
+        </section>
+
+        <section class="chapter" id="chapter-2">
+          <div class="chapter-kicker">Chapter 2</div>
+          <h2>The Myth of the Giant Leap<br />Start Where You Are</h2>
+
+          <p>Every man who has ever pulled himself out of a hole will tell you the same thing when you ask how they did it: I just started.</p>
+
+          <p>You will nod and think that’s a non-answer. It isn’t. It is the most important answer.</p>
+
+          <p>The single biggest trap that keeps men stuck is waiting for the right moment, the right resources, the right connection, the right idea, the right level of readiness — before beginning. This is not caution. This is sophisticated procrastination wearing the mask of wisdom.</p>
+
+          <p class="quote">“You will never be ready. Readiness is built, not found.”</p>
+
+          <h3>The Paralysis Formula</h3>
+
+          <p>Here’s how paralysis actually works: you imagine the entire journey — the mountain, the distance, the obstacles — and your brain decides it is too large to begin. So you don’t. And then you feel bad about not starting. And then you distract yourself. And then weeks pass.</p>
+
+          <p>The cure is embarrassingly simple: make the first step so small it would be ridiculous not to do it.</p>
+
+          <p>Want to get fit? Don’t join a gym and commit to six days a week. Do ten push-ups in your bedroom right now. Not because ten push-ups will transform your body. But because the identity of a person who does ten push-ups is different from the identity of a person who doesn’t.</p>
+
+          <p>And identity is what we’re building.</p>
+
+          <p>Want a job? Don’t overhaul your entire résumé in one afternoon. Write one sentence — your professional headline. Just one. Tomorrow, write the second part.</p>
+
+          <p>The completion will feel good. That good feeling is dopamine. Use it.</p>
+
+          <h3>The Compound Effect Is Real — and It’s Working Against You Right Now</h3>
+
+          <p>Here’s the brutal flip side: if you’re not building, you’re eroding. Nothing in a human life stays the same. Skills you’re not using are dulling. Opportunities you’re not taking are closing. Confidence you’re not exercising is shrinking.</p>
+
+          <p>But this also means: every small positive action compounds in your favour. Every book you read, every skill you practice, every healthy choice — these things stack. Slowly at first, then in a way that surprises you.</p>
+
+          <p>At month one of consistent small action, you’ll feel almost nothing. At month three, you’ll notice something. At month six, other people will notice something. At month twelve, you will barely recognise the man you were when you started.</p>
+
+          <h3>The One Degree Principle</h3>
+
+          <p>Water at 99 degrees Celsius is just very hot water. At 100 degrees, it boils. It becomes steam. It has power.</p>
+
+          <p>The difference between stuck and moving is often one degree — one small commitment you actually keep.</p>
+
+          <p>Pick one area. Just one. Not money and fitness and relationships and career simultaneously. One thing. Pour yourself into it for ninety days. Then watch what that success does to every other area of your life — because confidence, once earned in one domain, bleeds into all others.</p>
+
+          <h3>Your 90-Day Single Focus Exercise</h3>
+
+          <p>Write down your answer to this question: If I could only fix one thing in my life over the next 90 days, and everything else stayed the same, what would make the biggest difference?</p>
+
+          <p>Most men answer immediately. They already know. They just haven’t committed to saying it out loud.</p>
+
+          <p>Write it. Date it. Put it somewhere you see every morning. That is your mission for the next ninety days. Not your dream. Your mission.</p>
+
+          <div class="chapter-actions">
+            <a class="btn slim" href="#chapter-1">Previous</a>
+            <button class="btn slim" type="button" onclick="copyText(this, 'You will never be ready. Readiness is built, not found. — Zero to One by Cornelius Aurelius')">Copy this line</button>
+            <button class="btn slim" type="button" onclick="toggleNotes(true)">Write a note</button>
+            <a class="btn slim primary" href="#chapter-3">Next chapter</a>
+          </div>
+        </section>
+
+        <section class="chapter" id="chapter-3">
+          <div class="chapter-kicker">Chapter 3</div>
+          <h2>Identity Before Income — Who You Become Makes What You Earn</h2>
+
+          <p>Most men approach life in the wrong order.</p>
+
+          <p>They think: When I have money, I’ll feel confident. When I have a job, I’ll feel like I have direction. When I have a girlfriend, I’ll feel like I’m worth something.</p>
+
+          <p>This order is backwards. And it keeps men broke, stuck, and alone — because they are waiting for external circumstances to create an internal state that can only be built from the inside out.</p>
+
+          <p class="quote">“You don’t get confident and then take action. You take action and become confident.”</p>
+
+          <h3>The Identity Inversion</h3>
+
+          <p>Here is the framework that changes everything:</p>
+
+          <p>Instead of “I want to become a successful person,” ask: What would a successful person do today, given my exact circumstances?</p>
+
+          <p>A successful person with no money and no job would wake up early. They would read. They would research. They would network. They would apply. They would learn a skill. They would exercise. They would not waste three hours watching videos that make them feel worse about themselves.</p>
+
+          <p>You don’t need money to do any of those things. You need identity. And identity starts with the story you tell yourself.</p>
+
+          <h3>Audit Your Self-Story</h3>
+
+          <p>Right now, most men in your situation carry an internal narrative that sounds something like this: I’m the guy who hasn’t figured it out yet. I’m behind. I’m embarrassing. I don’t have what it takes.</p>
+
+          <p>That story is not the truth. It is a habit. And habits can be replaced.</p>
+
+          <p>The new story is not pretend confidence — it’s accurate reframing: I am a man who is in an early stage of building something real. I haven’t arrived yet. But I know where I’m going, and I’m moving.</p>
+
+          <p>You are not a failure taking up space. You are a project in progress. Those are factually different things.</p>
+
+          <h3>The Role Model Reverse-Engineering Exercise</h3>
+
+          <p>Pick one man — real or fictional — who represents the version of yourself you’re building toward. Not a celebrity you admire from a distance. Someone whose specific qualities you want to develop.</p>
+
+          <p>Now write three sentences: what does he believe about himself? How does he handle setbacks? What does he do on a Tuesday morning when he doesn’t feel like it?</p>
+
+          <p>You’ve just written your operating manual for the next year. When in doubt, ask: What would he do right now?</p>
+
+          <p>This isn’t pretending to be someone else. It’s using imagination as a design tool — building the self you intend to become by rehearsing the decisions he would make.</p>
+
+          <p class="quote">“Identity is not found. It is built, choice by choice, day by day, in the small moments nobody watches.”</p>
+
+          <div class="chapter-actions">
+            <a class="btn slim" href="#chapter-2">Previous</a>
+            <button class="btn slim" type="button" onclick="copyText(this, 'You do not need money to begin acting like a man who is building. You need identity. — Zero to One by Cornelius Aurelius')">Copy this line</button>
+            <button class="btn slim" type="button" onclick="toggleNotes(true)">Write a note</button>
+            <a class="btn slim primary" href="#chapter-4">Next chapter</a>
+          </div>
+        </section>
+
+        <section class="chapter" id="chapter-4">
+          <div class="chapter-kicker">Chapter 4</div>
+          <h2>The Invisible Job Market Nobody Told You About</h2>
+
+          <p>The job market you’ve been applying to — the one where you upload a CV to a portal, press submit, hear nothing, and feel like garbage — is the worst possible version of how employment works.</p>
+
+          <p>Here’s the truth the system never tells you: the majority of jobs are never publicly posted. They are filled by someone who knew someone, or someone who reached out directly before the position was even created. The public job market is the leftover market.</p>
+
+          <p class="quote">“Stop competing for scraps. Learn how the feast actually works.”</p>
+
+          <h3>The Warm Introduction Economy</h3>
+
+          <p>Every business owner, manager, and decision-maker you have ever met is a potential bridge to income. Most of them will never think to “help you find a job” because that’s not how they think. They think in terms of problems they need solved.</p>
+
+          <p>Your job is not to ask for a job. Your job is to find out what problems they have and demonstrate — even modestly — that you can solve them.</p>
+
+          <p>This is the shift from job-seeker to value-provider. And it changes everything about how you walk into a conversation.</p>
+
+          <h3>The Five Conversations Strategy</h3>
+
+          <p>This week, identify five people in your life — family friends, old teachers, former managers, neighbours, anyone — who run a business, manage a team, or work in a field you’re interested in.</p>
+
+          <p>Don’t ask them for a job. Ask them for twenty minutes of their time and one question: “What’s the biggest operational headache in your world right now?”</p>
+
+          <p>Listen. Don’t pitch. Just listen. Then go home, research the answer, and send them a two-paragraph email with a useful thought or resource.</p>
+
+          <p>You’ve just done something 95% of job-seekers never do: you’ve added value before asking for anything. You are now memorable. You are now someone they want to help.</p>
+
+          <h3>Skills That Pay in 2026</h3>
+
+          <p>These are real skills you can begin developing today, from your room, for free or near-free, that have active demand:</p>
+
+          <p><strong>Copywriting</strong> — the ability to write words that make people act. Learn it via free resources online. Offer to write for small local businesses for testimonials first.</p>
+
+          <p><strong>Video editing</strong> — every business needs content. CapCut and DaVinci Resolve are free. Watch tutorials, edit your own practice videos, build a three-clip portfolio.</p>
+
+          <p><strong>Sales</strong> — the highest-income skill in every industry, chronically undervalued by job seekers. Learn objection handling, listen to sales podcasts, offer to do unpaid trials for commission-based roles.</p>
+
+          <p><strong>Bookkeeping and admin</strong> — small businesses are desperate for organised people. A free online course and a willingness to help a family friend’s business can become paid work in weeks.</p>
+
+          <p>The goal in the first ninety days isn’t a career. It’s a first win. Income of any kind — even £200/month freelance — rewires your brain out of helplessness and into agency.</p>
+
+          <div class="chapter-actions">
+            <a class="btn slim" href="#chapter-3">Previous</a>
+            <button class="btn slim" type="button" onclick="copyText(this, 'Stop competing for scraps. Learn how the feast actually works. — Zero to One by Cornelius Aurelius')">Copy this line</button>
+            <button class="btn slim" type="button" onclick="toggleNotes(true)">Write a note</button>
+            <a class="btn slim primary" href="#chapter-5">Next chapter</a>
+          </div>
+        </section>
+
+        <section class="chapter" id="chapter-5">
+          <div class="chapter-kicker">Chapter 5</div>
+          <h2>Money Is a Language — Learn to Speak It</h2>
+
+          <p>Nobody taught you about money. That’s not an excuse — it’s a fact. Schools don’t teach it. Most parents don’t teach it. The people who know it often learned it the hard way.</p>
+
+          <p>So let’s close that gap. Right here, right now, in plain language.</p>
+
+          <h3>The Three-Bucket System</h3>
+
+          <p>When any money comes in — whether it’s £20 or £2,000 — before you spend a single penny, split it mentally and eventually physically, in different accounts, into three buckets:</p>
+
+          <p><strong>Bucket 1 — Survive: 50%.</strong> Necessities. Transport. Food. Essentials. Nothing optional.</p>
+
+          <p><strong>Bucket 2 — Build: 30%.</strong> Skills, tools, small investments in your future. An online course. A book. Equipment for a skill you’re developing.</p>
+
+          <p><strong>Bucket 3 — Grow: 20%.</strong> Savings. Even if it’s £5. The amount is irrelevant. The habit is everything.</p>
+
+          <p>When you have very little money, this system feels pointless. Do it anyway. You are programming the software of your financial mind. By the time real money arrives, the habits will already be installed.</p>
+
+          <h3>The Debt Trap — and the One Rule to Never Break</h3>
+
+          <p>If you have debt — credit cards, loans, money owed — here is the only rule that matters: never add to it. Not for anything.</p>
+
+          <p>No new debt. Not for “investment opportunities.” Not for a night out. Not for anything that loses value the moment you buy it. This is non-negotiable until you have positive cash flow.</p>
+
+          <h3>Understanding Value Creation</h3>
+
+          <p>Here is the single most important economic concept for a man starting from zero: money flows toward value.</p>
+
+          <p>Not toward need. Not toward effort. Not toward time. Toward value.</p>
+
+          <p>The man who understands what people need and delivers it better than anyone else available will always earn.</p>
+
+          <p>This means your job is not to find a salary. Your job is to become genuinely valuable at something specific. A skill. A service. A solution. And then to find the people who need that thing.</p>
+
+          <p class="quote">“The world does not owe you an income. The world rewards people who solve its problems.”</p>
+
+          <p>That’s not harsh. That’s liberating. Because it means your income is not decided by an employer — it’s decided by the value you create. And value is something you can build.</p>
+
+          <div class="chapter-actions">
+            <a class="btn slim" href="#chapter-4">Previous</a>
+            <button class="btn slim" type="button" onclick="copyText(this, 'The world does not owe you an income. The world rewards people who solve its problems. — Zero to One by Cornelius Aurelius')">Copy this line</button>
+            <button class="btn slim" type="button" onclick="toggleNotes(true)">Write a note</button>
+            <a class="btn slim primary" href="#chapter-6">Next chapter</a>
+          </div>
+        </section>
+
+        <section class="chapter" id="chapter-6">
+          <div class="chapter-kicker">Chapter 6</div>
+          <h2>Women, Relationships, and Why Building Yourself First Wins</h2>
+
+          <p>Let’s talk about this honestly.</p>
+
+          <p>Being single when you feel stuck adds a particular kind of pain. There’s loneliness, yes. But there’s also the bruise to your self-worth — the quiet fear that you’re undesirable, that no good woman would choose a man in your position, that you’re somehow falling behind in a race you didn’t agree to run.</p>
+
+          <p>Here’s what’s actually true: most men who attract genuinely good relationships are not men who went looking for them. They are men who were so focused on building something real that the right person showed up alongside the journey.</p>
+
+          <p class="quote">“The most attractive thing a man can have is a clear sense of where he’s going.”</p>
+
+          <h3>The Trap of Seeking Validation</h3>
+
+          <p>When a man pursues women from a place of emptiness — from neediness, from loneliness, from a desire for someone to fill the hole that purpose should fill — it shows. Not in what he says. In the energy under what he says.</p>
+
+          <p>Women are extraordinarily good at sensing desperation. Not because they’re cruel, but because they’re wired to evaluate long-term partner potential. A man who seems lost, without direction, craving her approval before he’s found his own — that registers as unsafe. Not because of what he earns. Because of how he holds himself.</p>
+
+          <h3>What Actually Attracts</h3>
+
+          <p><strong>Direction.</strong> Not perfection — direction. A man who says “I’m building a skill and here’s where I’m heading” is more compelling than a man with money who seems to be drifting. Certainty of purpose is deeply attractive.</p>
+
+          <p><strong>Standards.</strong> A man who has standards — who knows what he wants from life and won’t settle for less — communicates self-worth without saying a word.</p>
+
+          <p><strong>Presence.</strong> The ability to be fully in a conversation without anxiety, without performing, without needing to impress — this is rare and magnetic.</p>
+
+          <h3>The Fix Yourself First Principle</h3>
+
+          <p>This is not about becoming perfect before you date. It’s about this: the relationship you build while you are growing will be a product of who you both are at that moment. If you build a relationship at your lowest — from neediness and insecurity — you will attract a dynamic that mirrors that.</p>
+
+          <p>Build yourself. Your confidence, your skills, your financial progress, your physical health, your emotional clarity. Then the relationships you attract will be calibrated to the person you’ve become.</p>
+
+          <p>This is not theory. Ask any man who has been through a transformation — the relationship that came after was qualitatively different from anything that came before.</p>
+
+          <div class="chapter-actions">
+            <a class="btn slim" href="#chapter-5">Previous</a>
+            <button class="btn slim" type="button" onclick="copyText(this, 'The most attractive thing a man can have is a clear sense of where he is going. — Zero to One by Cornelius Aurelius')">Copy this line</button>
+            <button class="btn slim" type="button" onclick="toggleNotes(true)">Write a note</button>
+            <a class="btn slim primary" href="#chapter-7">Next chapter</a>
+          </div>
+        </section>
+
+        <section class="chapter" id="chapter-7">
+          <div class="chapter-kicker">Chapter 7</div>
+          <h2>Discipline Is Not Punishment — It’s the Highest Form of Self-Respect</h2>
+
+          <p>Most men have been taught to think about discipline as denial. Not eating what you want. Not sleeping when you want. Not doing what you feel like. This framing makes discipline feel like suffering — so most people avoid it.</p>
+
+          <p>Here is the real framing:</p>
+
+          <p class="quote">“Discipline is choosing the man you want to become over the discomfort of the moment.”</p>
+
+          <p>That’s not punishment. That’s the most profound act of self-respect available to you.</p>
+
+          <h3>The Comfort Trap</h3>
+
+          <p>Comfort, in moderation, is fine. Comfort as a lifestyle is destruction in slow motion.</p>
+
+          <p>When your default is to choose comfort — sleep in, eat junk, scroll for hours, avoid hard conversations, skip the exercise, put off the application — your capacity for discomfort shrinks. And a man with a low discomfort tolerance cannot build anything worth having.</p>
+
+          <p>Every hard thing you do — every workout you didn’t want to do, every cold morning you got up anyway, every time you chose the harder right thing over the easier wrong one — expands your tolerance for difficulty. And difficulty is the price of everything worth having.</p>
+
+          <h3>The Keystone Habit</h3>
+
+          <p>Research in behavioural psychology consistently shows that certain habits create ripple effects through every other area of life. These are called keystone habits.</p>
+
+          <p>For most men starting from zero, the most powerful keystone habit is physical exercise — not because of aesthetics, but because of what it does to your mind.</p>
+
+          <p>Consistent exercise improves sleep quality, increases testosterone, reduces anxiety and depression, builds a daily experience of accomplishment, and — crucially — proves to you that you can do hard things you don’t want to do. That proof transfers.</p>
+
+          <p>Start with twenty minutes. Outdoors if possible. Every day. Non-negotiable. Watch what happens to the rest of your decisions over the following weeks.</p>
+
+          <h3>Building Systems, Not Willpower</h3>
+
+          <p>Willpower is a depletable resource. Systems are not.</p>
+
+          <p>This is the difference between hoping you’ll be disciplined and designing a life where discipline is the default.</p>
+
+          <p>Design your environment: remove the things that make the wrong choice easy. Put the phone in another room when you need to focus. Don’t keep junk food in your space. Schedule your day the night before so you wake up with a plan rather than a blank slate that defaults to the path of least resistance.</p>
+
+          <p>You are not fighting your instincts. You are designing around them.</p>
+
+          <div class="chapter-actions">
+            <a class="btn slim" href="#chapter-6">Previous</a>
+            <button class="btn slim" type="button" onclick="copyText(this, 'Discipline is choosing the man you want to become over the discomfort of the moment. — Zero to One by Cornelius Aurelius')">Copy this line</button>
+            <button class="btn slim" type="button" onclick="toggleNotes(true)">Write a note</button>
+            <a class="btn slim primary" href="#chapter-8">Next chapter</a>
+          </div>
+        </section>
+
+        <section class="chapter" id="chapter-8">
+          <div class="chapter-kicker">Chapter 8</div>
+          <h2>Your Network Is Your Net Worth — Even When You’re Starting at Zero</h2>
+
+          <p>“Network” sounds like a word for people who already have business cards and LinkedIn premium. It’s not.</p>
+
+          <p>Your network is simply the collection of people who know you, trust you, and would think of you when something relevant comes up.</p>
+
+          <p>Right now, your network may feel small, irrelevant, or embarrassing. Almost every successful person’s network started that way.</p>
+
+          <h3>The Generosity Principle</h3>
+
+          <p>Most people approach networking as extraction: what can this person do for me? This approach fails consistently, because people can smell it.</p>
+
+          <p>The approach that works: lead with genuine contribution. What can you offer, share, notice, or do for this person without expecting anything back?</p>
+
+          <p>Even when you have nothing material to offer, you can offer attention, information, recognition, and connection. Listening deeply is rare. Sharing things relevant to someone’s world is valuable. Complimenting specific and real work they’ve done matters. Introducing people who should know each other can open doors.</p>
+
+          <h3>The Weak Tie Advantage</h3>
+
+          <p>Sociologist Mark Granovetter’s research found something counterintuitive: the most valuable professional connections are not your close friends, but your weak ties — acquaintances, former classmates, people you know casually.</p>
+
+          <p>Why? Because your close friends share mostly the same information and opportunities as you. Your weak ties move in different circles. They have access to worlds you don’t.</p>
+
+          <p>So reach out to someone you haven’t spoken to in a year. Not to ask for anything. Just to genuinely reconnect. See where the conversation goes.</p>
+
+          <h3>LinkedIn Without the Cringe</h3>
+
+          <p>If you’re not on LinkedIn, make a profile this week. If you are, clean it up.</p>
+
+          <p>You do not need to post motivational content or pretend you have accomplishments you don’t. You need a clear headline, a simple bio, and to start connecting with real people — including people you admire from a respectful distance.</p>
+
+          <p>Following and engaging thoughtfully with people in fields you want to enter is free. Commenting intelligently on their posts gets you noticed. Getting noticed is how opportunities find you.</p>
+
+          <p class="quote">“You don’t need to know the right people. You need to become someone the right people want to know.”</p>
+
+          <div class="chapter-actions">
+            <a class="btn slim" href="#chapter-7">Previous</a>
+            <button class="btn slim" type="button" onclick="copyText(this, 'You do not need to know the right people. You need to become someone the right people want to know. — Zero to One by Cornelius Aurelius')">Copy this line</button>
+            <button class="btn slim" type="button" onclick="toggleNotes(true)">Write a note</button>
+            <a class="btn slim primary" href="#chapter-9">Next chapter</a>
+          </div>
+        </section>
+
+        <section class="chapter" id="chapter-9">
+          <div class="chapter-kicker">Chapter 9</div>
+          <h2>Momentum — How Small Wins Collapse Big Walls</h2>
+
+          <p>There is a physics to human progress that most people never learn: momentum is real, and it compounds.</p>
+
+          <p>When you are stuck, every action feels enormous. Getting out of bed is hard. Making a phone call is hard. Sending an email is hard. This is not weakness — it’s the physics of inertia. A body at rest requires enormous energy to begin moving.</p>
+
+          <p>But a body in motion? A body in motion keeps moving with less and less effort.</p>
+
+          <p class="quote">“Your goal in month one is not success. It is motion.”</p>
+
+          <h3>The Win Streak</h3>
+
+          <p>The single most effective technique for building momentum is the win streak: a visual record of consecutive days you’ve done the one thing you committed to.</p>
+
+          <p>Buy a calendar. Put it somewhere you can’t avoid seeing it. Every day you complete your one commitment — your single daily action — put an X on that day. Your only job is to not break the streak.</p>
+
+          <p>This sounds childish. It is rooted in deeply serious psychology. The visual chain creates what psychologists call a commitment device — you are now competing not just against laziness, but against an external record of your own consistency.</p>
+
+          <h3>Celebrating Small Wins Without Self-Indulgence</h3>
+
+          <p>Acknowledge progress without rewarding it with regression. When you hit a milestone — first week of daily exercise, first completed application, first income from a new skill — acknowledge it internally. Say it to yourself: I did that.</p>
+
+          <p>Don’t celebrate by taking a week off. Don’t reward discipline with self-indulgence that undoes the gains. Celebrate by doing the next thing with slightly more confidence.</p>
+
+          <h3>When You Fall Off — The 48-Hour Rule</h3>
+
+          <p>You will miss days. You will have a bad week. You will fall off the streak.</p>
+
+          <p>The rule: you are allowed exactly 48 hours of frustration, rest, and reassessment. After that, you are back on. No extended spiral. No three-week retreat into comfort. Two days maximum, then you are moving again.</p>
+
+          <p>This is not harshness. This is how men who actually change their lives handle failure: not by pretending it doesn’t hurt, and not by letting it define the next chapter.</p>
+
+          <div class="chapter-actions">
+            <a class="btn slim" href="#chapter-8">Previous</a>
+            <button class="btn slim" type="button" onclick="copyText(this, 'Your goal in month one is not success. It is motion. — Zero to One by Cornelius Aurelius')">Copy this line</button>
+            <button class="btn slim" type="button" onclick="toggleNotes(true)">Write a note</button>
+            <a class="btn slim primary" href="#chapter-10">Next chapter</a>
+          </div>
+        </section>
+
+        <section class="chapter" id="chapter-10">
+          <div class="chapter-kicker">Chapter 10</div>
+          <h2>The Man You’ll Be in Three Years — Writing the Next Chapter</h2>
+
+          <p>Three years from now, a man who begins today will be unrecognisable.</p>
+
+          <p>Not because three years is a magical number. Because consistent small action over three years is mathematically sufficient to change virtually everything about a man’s circumstances — his skills, his income, his body, his relationships, his confidence, his address.</p>
+
+          <p>The man who was living in his parents’ house, scrolling through social media at 2 a.m., wondering if this was all there was — he becomes, in three years of intentional building, a man with skills that earn, a body he respects, relationships he chose, and a sense of purpose that doesn’t require anyone else’s validation.</p>
+
+          <p class="quote">“That man exists. He is the logical conclusion of the choices you make starting today.”</p>
+
+          <h3>The Three-Year Letter</h3>
+
+          <p>This is the final exercise in this book, and the most important.</p>
+
+          <p>Write a letter. Not to yourself as you are now. To yourself as you will be in three years.</p>
+
+          <p>Describe his life in specific detail. Not vague hopes — specifics. Where does he live? What does he do for work? What does his morning look like? Who is in his life? What has he built? What is he proud of? What did he have to go through to get there?</p>
+
+          <p>Write it in present tense, as if you are already him, looking back:</p>
+
+          <p class="quote">“I wake up every morning knowing exactly why I’m here. It took me eighteen months to land my first real client, and the first year was genuinely hard. But the man I became in that hardness — that’s the man I am now.”</p>
+
+          <p>Seal it. Put a date on the outside. Open it in three years.</p>
+
+          <h3>The Only Thing That Separates You</h3>
+
+          <p>Here is what genuinely separates the man who transforms from the man who doesn’t:</p>
+
+          <p>It is not intelligence. Plenty of intelligent men stay stuck. It is not luck — luck plays a role, but you can position yourself to meet it. It is not connections, money, or circumstances.</p>
+
+          <p>It is the decision to begin. And then the decision to continue. And then the decision to continue again.</p>
+
+          <p>That is all. Begin. Continue. Continue.</p>
+
+          <p>Everything else is details.</p>
+
+          <div class="chapter-actions">
+            <a class="btn slim" href="#chapter-9">Previous</a>
+            <button class="btn slim" type="button" onclick="copyText(this, 'Begin. Continue. Continue. Everything else is details. — Zero to One by Cornelius Aurelius')">Copy this line</button>
+            <button class="btn slim" type="button" onclick="toggleNotes(true)">Write a note</button>
+            <a class="btn slim primary" href="#final-note">Final note</a>
+          </div>
+        </section>
+
+        <section class="chapter" id="final-note">
+          <div class="chapter-kicker">Final Note</div>
+          <h2>A Letter to Your Future Self</h2>
+
+          <p>You picked up this book. Maybe someone gave it to you. Maybe you found it on your own. Maybe you were desperate and this was the cheapest thing you could do to feel like you were doing something.</p>
+
+          <p>It doesn’t matter why you started reading. It matters that you finish with a single concrete action.</p>
+
+          <p>So here it is. One thing. Today.</p>
+
+          <p>Write down one sentence:</p>
+
+          <p class="quote">The one thing I will do today that my future self will thank me for is:</p>
+
+          <p>Don’t overthink it. The ten-second answer is usually the right one.</p>
+
+          <p>Then do it.</p>
+
+          <p>Not tomorrow. Not after this next video. Not when you feel ready.</p>
+
+          <p>Now.</p>
+
+          <p class="quote">“The only difference between the man you are and the man you want to be is the actions you take in the space between reading and doing. Go build.”</p>
+
+          <div class="chapter-actions">
+            <a class="btn slim" href="#chapter-10">Previous</a>
+            <button class="btn slim" type="button" onclick="copyText(this, 'The only difference between the man you are and the man you want to be is the actions you take in the space between reading and doing. Go build. — Zero to One by Cornelius Aurelius')">Copy this line</button>
+            <button class="btn slim" type="button" onclick="toggleNotes(true)">Write a note</button>
+            <button class="btn slim primary" type="button" onclick="sharePage()">Share ebook</button>
+          </div>
+        </section>
+      </article>
+    </section>
+  </main>
+
+  <button class="btn primary floating-notes" type="button" onclick="toggleNotes(true)" aria-label="Open private notes">Notes</button>
+
+  <aside class="notes-panel" id="notesPanel" aria-label="Private notes panel">
+    <div class="notes-head">
+      <strong>Private Notes</strong>
+      <button class="btn slim" type="button" onclick="toggleNotes(false)">Close</button>
+    </div>
+
+    <div class="notes-body">
+      <label class="mini" for="readerEmail">Your email address</label>
+      <input id="readerEmail" type="email" placeholder="you@example.com" autocomplete="email" />
+
+      <label class="mini" for="readerNotes">Your thoughts while reading</label>
+      <textarea id="readerNotes" placeholder="Write your thoughts, actions, questions, or future-self notes here..."></textarea>
+
+      <button class="btn primary" type="button" onclick="emailNotes()">Email notes to myself</button>
+      <button class="btn" type="button" onclick="clearNotes()">Clear notes</button>
+
+      <div class="status" id="notesStatus" aria-live="polite"></div>
+      <p class="mini">Notes are kept only in this browser unless you choose to send them by email.</p>
+    </div>
+  </aside>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <strong>Zero to One by Cornelius Aurelius</strong>
+
+      <div class="footer-links">
+        <a href="https://cornelius-aurelius.github.io/CORNELIUS-AURELIUS-EBOOKS/">Cornelius Aurelius Ebooks Hub</a>
+        <a href="https://corneliusaurelius.com/">CORNELIUSAURELIUS.COM</a>
+        <a href="https://buy.stripe.com/28E00jbRIfz8aLI7TGco000">Tip Cornelius</a>
+        <a href="#top">Back to top</a>
+      </div>
+
+      <p class="mini">© <span id="year"></span> Cornelius Aurelius. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const pageTitle = "Zero to One by Cornelius Aurelius";
+    const pageText = "A no-excuses playbook for men who are broke, stuck, and ready to change everything.";
+    const fallbackUrl = "https://cornelius-aurelius.github.io/ZERO-TO-ONE/";
+
+    function currentUrl() {
+      if (window.location.href && !window.location.href.startsWith("file:")) {
+        return window.location.href.split("#")[0];
+      }
+      return fallbackUrl;
+    }
+
+    function setStatus(id, message) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.textContent = message;
+      window.clearTimeout(el.dataset.timer);
+      el.dataset.timer = window.setTimeout(() => {
+        el.textContent = "";
+      }, 3500);
+    }
+
+    async function copyToClipboard(text) {
+      try {
+        await navigator.clipboard.writeText(text);
+        return true;
+      } catch (error) {
+        const temp = document.createElement("textarea");
+        temp.value = text;
+        temp.setAttribute("readonly", "");
+        temp.style.position = "fixed";
+        temp.style.left = "-9999px";
+        document.body.appendChild(temp);
+        temp.select();
+        let success = false;
+        try {
+          success = document.execCommand("copy");
+        } catch (err) {
+          success = false;
+        }
+        document.body.removeChild(temp);
+        return success;
+      }
+    }
+
+    async function sharePage() {
+      const url = currentUrl();
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            title: pageTitle,
+            text: pageText,
+            url
+          });
+          setStatus("shareStatus", "Share window opened.");
+          return;
+        } catch (error) {
+          if (error.name === "AbortError") return;
+        }
+      }
+
+      const copied = await copyToClipboard(url);
+      setStatus("shareStatus", copied ? "Link copied." : "Copy failed. Use the address bar link.");
+    }
+
+    async function copyPageLink() {
+      const copied = await copyToClipboard(currentUrl());
+      setStatus("shareStatus", copied ? "Link copied." : "Copy failed. Use the address bar link.");
+    }
+
+    function openShare(platform) {
+      const url = encodeURIComponent(currentUrl());
+      const text = encodeURIComponent(pageText);
+      const title = encodeURIComponent(pageTitle);
+      let shareUrl = "";
+
+      if (platform === "x") {
+        shareUrl = `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
+      }
+
+      if (platform === "facebook") {
+        shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+      }
+
+      if (platform === "linkedin") {
+        shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+      }
+
+      if (platform === "whatsapp") {
+        shareUrl = `https://api.whatsapp.com/send?text=${title}%20${url}`;
+      }
+
+      if (shareUrl) {
+        window.open(shareUrl, "_blank", "noopener,noreferrer,width=760,height=720");
+      }
+    }
+
+    async function copyText(button, text) {
+      const copied = await copyToClipboard(text);
+      const original = button.textContent;
+      button.textContent = copied ? "Copied" : "Try again";
+      setStatus("copyStatus", copied ? "Line copied." : "Copy failed.");
+      setTimeout(() => {
+        button.textContent = original;
+      }, 1600);
+    }
+
+    function setTheme(theme) {
+      document.body.setAttribute("data-theme", theme);
+      localStorage.setItem("zeroToOneTheme", theme);
+    }
+
+    function changeFont(direction) {
+      const root = document.documentElement;
+      const current = parseInt(getComputedStyle(root).getPropertyValue("--fontSize")) || 18;
+      const next = Math.max(16, Math.min(23, current + direction));
+      root.style.setProperty("--fontSize", next + "px");
+      localStorage.setItem("zeroToOneFontSize", String(next));
+    }
+
+    function setWidth(width) {
+      const root = document.documentElement;
+      const value = width === "wide" ? "980px" : "720px";
+      root.style.setProperty("--readWidth", value);
+      localStorage.setItem("zeroToOneReadWidth", value);
+    }
+
+    function toggleNotes(open) {
+      const panel = document.getElementById("notesPanel");
+      panel.classList.toggle("open", Boolean(open));
+      if (open) {
+        setTimeout(() => {
+          document.getElementById("readerNotes").focus();
+        }, 60);
+      }
+    }
+
+    function emailNotes() {
+      const email = document.getElementById("readerEmail").value.trim();
+      const notes = document.getElementById("readerNotes").value.trim();
+
+      if (!notes) {
+        setStatus("notesStatus", "Write a note first.");
+        return;
+      }
+
+      const subject = encodeURIComponent("My notes from Zero to One by Cornelius Aurelius");
+      const body = encodeURIComponent(
+        `My notes from Zero to One by Cornelius Aurelius:\n\n${notes}\n\nEbook link:\n${currentUrl()}`
+      );
+
+      const to = email ? encodeURIComponent(email) : "";
+      window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+      setStatus("notesStatus", "Email app opened.");
+    }
+
+    function clearNotes() {
+      document.getElementById("readerNotes").value = "";
+      localStorage.removeItem("zeroToOneNotes");
+      setStatus("notesStatus", "Notes cleared.");
+    }
+
+    function updateProgress() {
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const height = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = height > 0 ? (scrollTop / height) * 100 : 0;
+      document.getElementById("progressBar").style.width = progress + "%";
+    }
+
+    function highlightToc() {
+      const sections = [...document.querySelectorAll(".chapter[id]")];
+      const links = [...document.querySelectorAll(".toc a")];
+      let activeId = "";
+
+      sections.forEach(section => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top <= 140) activeId = section.id;
+      });
+
+      links.forEach(link => {
+        link.classList.toggle("active", link.getAttribute("href") === "#" + activeId);
+      });
+    }
+
+    function restoreSettings() {
+      const theme = localStorage.getItem("zeroToOneTheme");
+      const fontSize = localStorage.getItem("zeroToOneFontSize");
+      const readWidth = localStorage.getItem("zeroToOneReadWidth");
+      const notes = localStorage.getItem("zeroToOneNotes");
+      const email = localStorage.getItem("zeroToOneEmail");
+
+      if (theme) document.body.setAttribute("data-theme", theme);
+      if (fontSize) document.documentElement.style.setProperty("--fontSize", fontSize + "px");
+      if (readWidth) document.documentElement.style.setProperty("--readWidth", readWidth);
+      if (notes) document.getElementById("readerNotes").value = notes;
+      if (email) document.getElementById("readerEmail").value = email;
+    }
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    window.addEventListener("scroll", () => {
+      updateProgress();
+      highlightToc();
+    }, { passive: true });
+
+    window.addEventListener("load", () => {
+      restoreSettings();
+      updateProgress();
+      highlightToc();
+    });
+
+    document.getElementById("readerNotes").addEventListener("input", event => {
+      localStorage.setItem("zeroToOneNotes", event.target.value);
+    });
+
+    document.getElementById("readerEmail").addEventListener("input", event => {
+      localStorage.setItem("zeroToOneEmail", event.target.value);
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") toggleNotes(false);
+    });
+  </script>
+</body>
+</html>
